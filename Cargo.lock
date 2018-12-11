@@ -1,0 +1,21 @@
+[[package]]
+name = "cc"
+version = "1.0.25"
+source = "registry+https://mirrors.ustc.edu.cn/crates.io-index/"
+
+[[package]]
+name = "coinapi-rust"
+version = "0.1.0"
+dependencies = [
+ "cc 1.0.25 (registry+https://mirrors.ustc.edu.cn/crates.io-index/)",
+ "libc 0.2.44 (registry+https://mirrors.ustc.edu.cn/crates.io-index/)",
+]
+
+[[package]]
+name = "libc"
+version = "0.2.44"
+source = "registry+https://mirrors.ustc.edu.cn/crates.io-index/"
+
+[metadata]
+"checksum cc 1.0.25 (registry+https://mirrors.ustc.edu.cn/crates.io-index/)" = "f159dfd43363c4d08055a07703eb7a3406b0dac4d0584d96965a3262db3c9d16"
+"checksum libc 0.2.44 (registry+https://mirrors.ustc.edu.cn/crates.io-index/)" = "10923947f84a519a45c8fefb7dd1b3e8c08747993381adee176d7a82b4195311"
